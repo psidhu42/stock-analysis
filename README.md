@@ -14,16 +14,17 @@ The original VBA code processed the data for 2017 and 2018 stocks at a much slow
 
 ### Results of Original VBA Code
 
-As shown in the following images, the original code looped through the stocks data and output the results onto the Excel sheet, notice that the data is not formatted in the cells. The times shown in the message box afterwards are also provided.
+As shown in the following images, the original code looped through the stocks data and output the results onto the Excel sheet, notice that the data is not formatted in the cells. The times shown in the message box afterwards are also provided, with 2017 and 2018 results taking roughly 0.754 seconds each.
 
 ![2017 Results Original Code](https://github.com/psidhu42/stock-analysis/blob/main/resources/module_2017.PNG) ![2018 Results Original Code](https://github.com/psidhu42/stock-analysis/blob/main/resources/module_2018.PNG)
-![2017 Runtime Original Code](https://github.com/psidhu42/stock-analysis/blob/main/resources/runtime_2017.PNG)      ![2018 Runtime Original Code](https://github.com/psidhu42/stock-analysis/blob/main/resources/runtime_2018.PNG)
+![2017 Runtime Original Code](https://github.com/psidhu42/stock-analysis/blob/main/resources/runtime_2017.PNG) ![2018 Runtime Original Code](https://github.com/psidhu42/stock-analysis/blob/main/resources/runtime_2018.PNG)
 
-### Analysis of Outcomes Based on Goals
+### Results of Refactored VBA Code
 
-When looking at the data for project outcomes based on the goal, the chart below shows that projects with a goal less than or equal to $5000 had a higher success rate than most projects above that goal.
+The refactored code performed much better than the original, with 2017 results taking around 0.109 seconds and 2018 results doing sliglty better at about 0.105 seconds. The refactored code also includes formatting, and still did better.
 
-![Outcomes vs Goals](https://github.com/psidhu42/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+![2017 Results Refactored Code](https://github.com/psidhu42/stock-analysis/blob/main/resources/refactored_2017.PNG) ![2018 Results Refactored Code](https://github.com/psidhu42/stock-analysis/blob/main/resources/refactored_2018.PNG)
+![2017 Runtime Refactored Code](https://github.com/psidhu42/stock-analysis/blob/main/resources/VBA_Challenge_2017.png) ![2018 Runtime Refactored Code](https://github.com/psidhu42/stock-analysis/blob/main/resources/VBA_Challenge_2018.png)
 
 ## Limitations and Recomendations
 
