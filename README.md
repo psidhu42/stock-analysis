@@ -16,7 +16,7 @@ The original VBA code processed the data for 2017 and 2018 stocks at a much slow
 
 As shown in the following images, the original code looped through the stocks data and output the results onto the Excel sheet, notice that the data is not formatted in the cells. The times shown in the message box afterwards are also provided.
 
-![2017 Results Original Code](https://github.com/psidhu42/stock-analysis/blob/main/resources/module_2017.PNG)
+![2017 Results Original Code](https://github.com/psidhu42/stock-analysis/blob/main/resources/module_2017.PNG) ![2018 Results Original Code](https://github.com/psidhu42/stock-analysis/blob/main/resources/module_2018.PNG)
 
 ### Analysis of Outcomes Based on Goals
 
